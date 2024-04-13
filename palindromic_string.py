@@ -1,8 +1,7 @@
-print("Hello World")
 
-a = input()
-b = len(a)
-c = a[::-1]
+a = input() # Taking the input in the form of string 
+b = len(a) # Finding the lenght of the string 
+c = a[::-1] # Reversing the String 
 flag = 1
 for i in range(b):
     if(a[i]!=c[i]):
